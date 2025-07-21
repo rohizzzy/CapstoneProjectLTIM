@@ -1,0 +1,27 @@
+[
+  {
+    "rule_id": "R001",
+    "description": "Credit score < 600 AND >2 defaults",
+    "risk_flag": "HIGH"
+  },
+  {
+    "rule_id": "R002",
+    "description": "Loan amount > \u20b93,00,000 AND income < \u20b940,000",
+    "risk_flag": "MEDIUM"
+  },
+  {
+    "rule_id": "R003",
+    "description": "Missed payment in last 3 months",
+    "risk_flag": "HIGH"
+  },
+  {
+    "rule_id": "R004",
+    "description": "No defaults AND low credit utilization",
+    "risk_flag": "LOW"
+  },
+  {
+    "rule_id": "R005",
+    "description": "High open credit lines + default history",
+    "risk_flag": "HIGH"
+  }
+]
